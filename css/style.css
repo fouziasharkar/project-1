@@ -1,0 +1,150 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container {
+    /* background-color: whitesmoke; */
+
+}
+.about-container{
+    background-color: #F7F0FF;
+}
+
+.column-colour {
+    background-color: #095482;
+}
+
+.navbar {
+    background-color: #095482;
+
+    /* navbar sticky */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+
+.navbar a {
+    color: white !important;
+    /* important is essential to make the colours work as by default we used navbar-dark */
+}
+
+.navbar a:hover {
+    color: greenyellow !important;
+}
+
+/* .container{
+    background-color: #095482;
+} */
+
+/* .image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+} */
+
+
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ration:16/9) {
+    .video {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media (max-aspect-ration:16/9) {
+    .video {
+        width: auto;
+        height: 100%;
+
+    }
+}
+/* ei porjonto video r jonno */
+
+
+.text-colour{
+    /* background-color:#095482; */
+    color: #EE4E4E!important;
+}
+.education-container{
+    background-color:#FFF8CE;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:#F6901E;
+}
+.card-color{
+    background-color:#EE4E4E;
+}
+.pbg-color{
+    /* background-color: #F7F0FF; */
+    background-color: #052019;
+}
+.pt-color{
+  color: #1ACFC0;
+}
+.link-color{
+    color: #1ACFC0;
+}
+.project-background{
+    background-color:#F7F0FF;
+}
+.form-container{
+    background-color: #535A6A;
+}
+.footer{
+    background-color: #C7C9C4;
+    font-size: 20px;
+}
+.circle-2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:#1773EA;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.circle-2:hover{
+    background-color: yellowgreen;
+}
+
+.circle-3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:white;
+    color:red;
+    font-size: 40px;
+    text-align: center;
+}
+.circle-3:hover{
+    background-color: yellowgreen;
+}
+.circle-4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+
+}
+.circle-4:hover{
+    background-color: yellowgreen;
+}
